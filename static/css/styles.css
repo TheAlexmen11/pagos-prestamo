@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+html{
+    background: hsla(217, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+    height: 120%;
+}
+.target{
+    box-shadow: 2px 6px 5px 5px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 2px 6px 5px 5px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px 6px 5px 5px rgba(0,0,0,0.21);
+    background-color: rgba(240, 252, 255, 0.418);
+    border-radius: 1.05rem;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 500px;
+    margin:80px auto;
+    height: auto;
+    text-align: center;
+    font-size: 1.05rem;
+}
+.form-Sesion{
+    text-align: left;
+    margin: 0px auto;
+    max-width: 500px;
+    max-width: 90%;
+}
+.target>h1{
+    margin: 30px;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    height: 2.05rem;
+    width: 100%;
+    font-size: 1.05rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+input[type='submit']{
+    box-shadow: 4px 7px 5px -3px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 4px 7px 5px -3px rgba(0,0,0,0.42);
+    -moz-box-shadow: 4px 7px 5px -3px rgba(0,0,0,0.42);
+    background-color: azure;
+    height: 3rem;
+    margin: 20px auto;
+    font-size: 1.05rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+input[type='submit']:hover{
+    background-color: rgb(100, 232, 255);
+    border: 1px solid white;
+}
+.creditos{
+    margin: 10px;
+}
+/*===============Target Imagen===========*/
+.target>img{
+    width:80%;
+    margin: 30px;
+}
+nav>h1{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgb(68, 68, 68);
+}
+table{
+    margin: 0 auto;
+    background-color: rgba(233, 232, 233, 0.233);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1.05rem;
+}
+table td{
+    height: 2rem;
+    /* max-width: 100px; */
+    width: 100px;
+}
+.title{background-color: rgb(157, 219, 255);}
+.pagoIncomplet{
+    background-color: rgb(212, 254, 255);
+}
+.pagoComplet{
+
+    background-color: rgb(244, 255, 183);
+}
+.btnSalir{
+    background-color: crimson;
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 10px;
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.05rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .btnSalir{
+        display: block;
+        width: 90%;
+        margin:10px auto;
+    }
+  }
