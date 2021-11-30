@@ -13,7 +13,7 @@ let title=`<tr class="title">
 
 for (let i = 0; i < xfechas.length; i++) {
     let xdata = `
-    <tr class=''>                
+    <tr class='${xpagos==1?"pagoComplet":"pagoIncomplet"}'>                
         <td>Nº ${i}</td>
         <td>${xfechas[i]}</td>
         <td>fecha</td>
